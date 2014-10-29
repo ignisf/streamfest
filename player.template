@@ -39,7 +39,7 @@
 
      /* Positioning for the main box */
      .main-box {
-       width: 85%;
+       width: 100%;
        max-width: 700px;
      }
 
