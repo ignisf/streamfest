@@ -64,3 +64,49 @@
     </div>
   </body>
 </html>
+
+<!-- Embed with:
+
+<iframe src="http://grendel.ludost.net/openfest/{{stream}}.html" style="border: none; height: 364px; width: 100%; overflow: none;" allowfullscreen>
+  <p>Браузърът Ви не поддържа iframes</p>
+</iframe>
+
+<section>
+  <p>Дискусия в IRC във <a href="irc://irc.freenode.net/OpenFest">#OpenFest на irc.freenode.net</a> и в Twitter с хештаг <a href="https://twitter.com/hashtag/openfest?f=realtime&src=hash">#OpenFest</a>
+</section>
+
+<section>
+  <p>Гледане в друг медия плейър:</p>
+  <p>
+    <a href="rtmp://grendel.ludost.net/openfest/{{stream}}">rtmp://grendel.ludost.net/openfest/{{stream}}</a> (RTMP поток, поддържан от VLC и по-добрите медия плейъри)
+  </p>
+
+  <p>
+    <a href="http://grendel.ludost.net/test/hls/{{stream}}.m3u8">http://grendel.ludost.net/openfest/hls/{{stream}}.m3u8</a> (HLS поток, поддържан от Android, iOS, както и VLC)
+  </p>
+</section>
+
+-->
+
+<!-- English Version
+
+<iframe src="http://grendel.ludost.net/openfest/{{stream}}.html" style="border: none; height: 364px; width: 100%; overflow: none;" allowfullscreen>
+  <p>Your browser does not support iframes</p>
+</iframe>
+
+<section>
+  <p>Discussion in <a href="irc://irc.freenode.net/OpenFest">#OpenFest on irc.freenode.net</a> and in Twitter under hashtag <a href="https://twitter.com/hashtag/openfest?f=realtime&src=hash">#OpenFest</a>
+</section>
+
+<section>
+  <p>Watch in a media player of your choice:</p>
+  <p>
+    <a href="rtmp://grendel.ludost.net/openfest/{{stream}}">rtmp://grendel.ludost.net/openfest/{{stream}}</a> (RTMP stream, supported by VLC, MPlayer, etc.)
+  </p>
+
+  <p>
+    <a href="http://grendel.ludost.net/test/hls/{{stream}}.m3u8">http://grendel.ludost.net/openfest/hls/{{stream}}.m3u8</a> (HLS stream, supported by Android, iOS, VLC, MPlayer...)
+  </p>
+</section>
+
+-->
