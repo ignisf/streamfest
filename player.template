@@ -15,7 +15,7 @@
        height: 100%;
        padding: 0;
        margin: 0;
-       background-color: #1B1B1B;
+       background-color: #FFFFFF;
      }
 
      .wrapper {
@@ -49,13 +49,12 @@
     </style>
   </head>
   <body>
-
     <div class="wrapper main-box">
       <div class="sixteen-by-nine aspect-ratio"></div>
       <div class="content">
-        <video class="video-js vjs-default-skin" controls preload="none" width="auto" height="auto" poster="ruseconf-poster.png" data-setup="{}">
-          <source src="http://grendel.ludost.net/openfest/hls/lowtest.m3u8" type="application/x-mpegURL" />
-          <source src="rtmp://grendel.ludost.net/openfest/lowtest" type='rtmp/flv' />
+        <video class="video-js vjs-default-skin" controls preload="none" width="auto" height="auto" poster="openfest-poster.png" data-setup="{}">
+          <source src="http://grendel.ludost.net/openfest/hls/{{stream}}.m3u8" type="application/x-mpegURL" />
+          <source src="rtmp://grendel.ludost.net/openfest/{{stream}}" type='rtmp/flv' />
           <p class="vjs-no-js">
             To view this video please enable JavaScript,
             and consider upgrading to a web browser that
