@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>OpenFest Live Streaming</title>
-
+    <meta charset="utf8">
     <link href="video-js.min.css" rel="stylesheet" type="text/css">
     <script src="video.js"></script>
 
