@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="video-js.min.css" rel="stylesheet" type="text/css">
+    <link href="videojs-sublime-skin.min.css" rel="stylesheet" type="text/css">
     <script src="video.js"></script>
 
     <script>
@@ -54,8 +56,9 @@
     <div class="wrapper main-box">
       <div class="sixteen-by-nine aspect-ratio"></div>
       <div class="content">
-        <video class="video-js vjs-default-skin" controls preload="none" width="auto" height="auto" poster="openfest-poster.png" data-setup="{}">
+        <video class="video-js vjs-sublime-skin" controls preload="none" width="auto" height="auto" poster="openfest-poster.png" data-setup="{}">
           <source src="http://grendel.ludost.net/openfest/hls/{{stream}}.m3u8" type="application/x-mpegURL" />
+          <source src="http://grendel.ludost.net/openfest/dash/{{stream}}.mpd" type="application/dash+xml" />
           <source src="rtmp://grendel.ludost.net/openfest/{{stream}}" type='rtmp/flv' />
           <p class="vjs-no-js">
             To view this video please enable JavaScript,
