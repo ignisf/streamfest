@@ -1,3 +1,5 @@
+STREAMS ?= test lowtest sofia sofia-low varna varna-low g1 g1-low
+
 .PHONY: default
 .SILENT: default
 default: $(STREAMS:=.html)
