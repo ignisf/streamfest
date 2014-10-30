@@ -57,9 +57,9 @@
       <div class="sixteen-by-nine aspect-ratio"></div>
       <div class="content">
         <video class="video-js vjs-sublime-skin" controls preload="none" width="auto" height="auto" poster="openfest-poster.png" data-setup="{}">
-          <source src="http://grendel.ludost.net/openfest/hls/{{stream}}.m3u8" type="application/x-mpegURL" />
-          <source src="http://grendel.ludost.net/openfest/dash/{{stream}}.mpd" type="application/dash+xml" />
-          <source src="rtmp://grendel.ludost.net/openfest/{{stream}}" type='rtmp/flv' />
+          <source src="http://stream.openfest.org/openfest/hls/{{stream}}.m3u8" type="application/x-mpegURL" />
+          <source src="http://stream.openfest.org/openfest/dash/{{stream}}.mpd" type="application/dash+xml" />
+          <source src="rtmp://stream.openfest.org/openfest/{{stream}}" type='rtmp/flv' />
           <p class="vjs-no-js">
             To view this video please enable JavaScript,
             and consider upgrading to a web browser that
@@ -72,7 +72,7 @@
 
 <!-- Embed with:
 
-<iframe src="http://grendel.ludost.net/openfest/{{stream}}.html" style="border: none; height: 364px; width: 100%; overflow: none;" allowfullscreen>
+<iframe src="http://stream.openfest.org/openfest/{{stream}}.html" style="border: none; height: 364px; width: 100%; overflow: none;" allowfullscreen>
   <p>Браузърът Ви не поддържа iframes</p>
 </iframe>
 
@@ -83,11 +83,11 @@
 <section>
   <p>Гледане в друг медия плейър:</p>
   <p>
-    <a href="rtmp://grendel.ludost.net/openfest/{{stream}}">rtmp://grendel.ludost.net/openfest/{{stream}}</a> (RTMP поток, поддържан от VLC и по-добрите медия плейъри)
+    <a href="rtmp://stream.openfest.org/openfest/{{stream}}">rtmp://stream.openfest.org/openfest/{{stream}}</a> (RTMP поток, поддържан от VLC и по-добрите медия плейъри)
   </p>
 
   <p>
-    <a href="http://grendel.ludost.net/test/hls/{{stream}}.m3u8">http://grendel.ludost.net/openfest/hls/{{stream}}.m3u8</a> (HLS поток, поддържан от Android, iOS, както и VLC)
+    <a href="http://stream.openfest.org/test/hls/{{stream}}.m3u8">http://stream.openfest.org/openfest/hls/{{stream}}.m3u8</a> (HLS поток, поддържан от Android, iOS, както и VLC)
   </p>
 </section>
 
@@ -95,7 +95,7 @@
 
 <!-- English Version
 
-<iframe src="http://grendel.ludost.net/openfest/{{stream}}.html" style="border: none; height: 364px; width: 100%; overflow: none;" allowfullscreen>
+<iframe src="http://stream.openfest.org/openfest/{{stream}}.html" style="border: none; height: 364px; width: 100%; overflow: none;" allowfullscreen>
   <p>Your browser does not support iframes</p>
 </iframe>
 
@@ -106,11 +106,11 @@
 <section>
   <p>Watch in a media player of your choice:</p>
   <p>
-    <a href="rtmp://grendel.ludost.net/openfest/{{stream}}">rtmp://grendel.ludost.net/openfest/{{stream}}</a> (RTMP stream, supported by VLC, MPlayer, etc.)
+    <a href="rtmp://stream.openfest.org/openfest/{{stream}}">rtmp://stream.openfest.org/openfest/{{stream}}</a> (RTMP stream, supported by VLC, MPlayer, etc.)
   </p>
 
   <p>
-    <a href="http://grendel.ludost.net/test/hls/{{stream}}.m3u8">http://grendel.ludost.net/openfest/hls/{{stream}}.m3u8</a> (HLS stream, supported by Android, iOS, VLC, MPlayer...)
+    <a href="http://stream.openfest.org/test/hls/{{stream}}.m3u8">http://stream.openfest.org/openfest/hls/{{stream}}.m3u8</a> (HLS stream, supported by Android, iOS, VLC, MPlayer...)
   </p>
 </section>
 
