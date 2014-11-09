@@ -87,7 +87,7 @@
   </p>
 
   <p>
-    <a href="http://stream.openfest.org/test/hls/{{stream}}.m3u8">http://stream.openfest.org/openfest/hls/{{stream}}.m3u8</a> (HLS поток, поддържан от Android, iOS, както и VLC)
+    <a href="http://stream.openfest.org/openfest/hls/{{stream}}.m3u8">http://stream.openfest.org/openfest/hls/{{stream}}.m3u8</a> (HLS поток, поддържан от Android, iOS, както и VLC)
   </p>
 </section>
 
@@ -110,7 +110,7 @@
   </p>
 
   <p>
-    <a href="http://stream.openfest.org/test/hls/{{stream}}.m3u8">http://stream.openfest.org/openfest/hls/{{stream}}.m3u8</a> (HLS stream, supported by Android, iOS, VLC, MPlayer...)
+    <a href="http://stream.openfest.org/openfest/hls/{{stream}}.m3u8">http://stream.openfest.org/openfest/hls/{{stream}}.m3u8</a> (HLS stream, supported by Android, iOS, VLC, MPlayer...)
   </p>
 </section>
 
